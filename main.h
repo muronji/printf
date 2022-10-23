@@ -111,4 +111,8 @@ int is_digit(char);
 long int convert_size_number(long int num, int size);
 long int convert_size_unsgnd(unsigned long int num, int size);
 
+/* putchar */
+int _putchar(char c);
+int _puts(char *str);
+
 #endif /* MAIN_H */
